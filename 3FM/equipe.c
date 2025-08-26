@@ -38,7 +38,7 @@ Time *LerDados(char *Arquivo)
      ) == 11)
     {
 
-        printf("%s\n", X[i].Equipe);
+        X[i].Aproveitamento = (float) 100 * X[i].Pts / (3 *X[i].J);
         i++;
 
     }
