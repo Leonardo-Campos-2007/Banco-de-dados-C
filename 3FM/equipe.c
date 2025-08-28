@@ -8,7 +8,7 @@
 Time *LerDados(char *Arquivo)
 {
 
-    Time *X = malloc(20 * sizeof(Time));
+    Time * X = malloc(20 * sizeof(Time));
 
     if (X == NULL)
     {

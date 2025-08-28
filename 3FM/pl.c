@@ -18,7 +18,7 @@ int main()
         30, 41, 15, 27, 33, 18, 26, 39, 12, 21
 
     };
-
+    
     int Tamanho = sizeof(Numeros)/sizeof(int);
     int Elemento = 35;
 
@@ -48,11 +48,11 @@ int PesquisaSequencial(int * V, int N, int Chave)
     return ERRO;
 }
 
-char * PesquisaSequencial_2(int * V, int N, int Chave);
+char * PesquisaSequencial_2(int * V, int N, int Chave)
 {
 
  int i;
- char Resposta[100]
+ char Resposta[100];
     for (i = 0; i < N; i++)
     {
 
